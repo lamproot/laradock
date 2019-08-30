@@ -1,0 +1,50 @@
+2019-08-23 PHP 交接
+
+代码 http://gt.here.cn
+文档 http://cf.here.cn
+	例如 http://cf.here.cn/pages/viewpage.action?pageId=7766588
+
+
+PHP项目
+	1.机遇空间API jiyu_space
+	git@192.168.100.173:backend/jiyu_space.git
+
+	相关目录 jiyu_space/apps/api
+
+		Mongo 配置相关 model_config集合 "config" : "home"
+		http://cf.here.cn/pages/viewpage.action?pageId=6292566
+
+	具体相关逻辑看代码即可 目前基本不需要修改
+
+
+	2.机遇空间新管理后台 space_general_server
+	git@192.168.100.173:backend/space_general_server.git
+
+	3.机遇API jiyutemp
+	git@192.168.100.173:backend/jiyutemp.git
+
+	4.机遇支付系统 pay
+	git@192.168.100.173:backend/pay.git
+
+
+	5.img 上传图片相关
+	git@192.168.100.173:backend/img.git
+
+	具体功能看代码
+
+
+NodeJS
+	1.机遇空间老管理后台 space_server
+	git@192.168.100.173:backend/space_server.git
+	dev 8020  pro 9020
+
+	http://192.168.100.189:9020/index
+	10091 2644441
+
+	2.机遇空间财务对账系统 space_station
+	git@192.168.100.173:backend/space_station.git
+
+	http://station.6clue.com/index
+	aiospace798 aiospace798
+
+	具体相关逻辑看代码即可
